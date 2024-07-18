@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <header>
+        <!-- this area contains the section. -->
+        <nav>
+            <!-- Navbar content -->
+            <h1 class="lft">
+                Medicine Inventory
+            </h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="medicine.html">Details</a></li>
+                <li><a href="add.html">Add Medicine</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- This section contains personal Information. -->
+
+    <section class="form-input">
+
+        <div class="head">
+            <h3 class="tt">Medicine Int.</h3>
+            <hr>
+        </div>
+        <div class="form-input">
+
+            <form action="/action_page.php" method="post">
+                <div class="general">
+                    <div class="row">
+                        <div class="input">
+                            <label for="name">Name</label>
+                            <input class="dec" type="text" name="name" id="name" placeholder="Name" required>
+                        </div>
+
+                        <div class="input">
+                            <label for="Brand">Brand</label>
+                            <input class="dec" type="text" name="Brand" id="Brand" placeholder="Brand">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input">
+                            <label for="G.name">Generic Name</label>
+                            <input class="dec" type="text" name="g.name" id="G.name" placeholder="Generic Name">
+                        </div>
+
+                        <div class="input">
+                            <label for="Quantity">Quantity</label>
+                            <input class="dec" type="number" name="Quantity" id="Quantity" placeholder="Quantity">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input">
+                            <label for="Strenght">Strenght</label>
+                            <input class="dec" type="number" name="strenght" id="Strenght" placeholder="Strenght">
+                        </div>
+
+                        <div class="input">
+                            <label for="Expiry Date">Expiry Date</label>
+                            <input class="dec" type="date" name="Expiry Date" id="Expiry Date"
+                                placeholder="Expiry Date">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="input">
+                            <label for="Price">Price</label>
+                            <input class="dec" type="number" name="Price" id="Price" placeholder="Price">
+                        </div>
+
+                        <div class="input">
+                            <label for="Quantity">Quantity</label>
+                            <input class="dec" type="number" name="Quantity" id="Quantity" placeholder="Quantity">
+                        </div>
+                    </div>
+
+                    <div class="radio row">
+                        <div class="input">
+                            <label for="perscription">Is Perscription:</label>
+                            <div class="yes">
+                                <input type="radio" class="radio" name="perscription" value="Yes" id="yes"><label
+                                    for="yes">Yes</label>
+                            </div>
+                            <div class="no">
+                                <input type="radio" class="radio" name="perscription" value="No" id="no"><label
+                                    for="no">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row disc">
+                        <div class="input">
+                            <label for="Description">Description</label>
+                            <textarea name="Description" id="" cols="40" rows="6" style="resize: none;"></textarea>
+                        </div>
+                    </div>
+                    <div class="row check">
+                        <input type="checkbox" name="checked" id="checked">
+                        <label for="checked">
+                            I've put Information valid for required
+                            <a href="www.google.com" target="_blank"
+                                style="color:blue; text-decoration: underline;">Terms
+                                and policy</a>
+                        </label>
+
+                    </div>
+                    <div class="row btn">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- This area contains the Footer. -->
+    <section>
+        <div class="footer">
+            <p>Copyright &copy; designed by <b>Khadija tul kubra</b> | All rights reserved under University of Health Sciences.</p>
+        </div>
+    </section>
+</body>
+
+</html>

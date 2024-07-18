@@ -1,0 +1,478 @@
+/* stylesheet */
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.grad {
+    width: 100%;
+    height: 100%;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    padding: 20px 80px;
+    height: 100px;
+    background: linear-gradient(#3296bd, white);
+    color: #fff;
+}
+
+.logo i {
+    font-size: 80px;
+    color: white;
+}
+
+header nav {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav ul li:hover {
+    text-shadow: 0 0 10px #000;
+
+}
+
+/* index.css */
+
+/* ///  DESCRIPTION //// */
+
+.description {
+    margin: 100px 20px;
+    padding: 25px;
+    background-image: linear linear-gradient(#3296bd, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.description img {
+    margin: 15px;
+    border-radius: 15px;
+    height: 300px;
+    filter: drop-shadow(-10px 0 20px #00000044);
+}
+
+.content {
+    border: 2px solid #3296bd;
+    border-width: 2px;
+    width: 550px;
+    border-radius: 15px;
+}
+
+.content .text {
+    margin: 10px;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.content p b {
+    font-size: 20px;
+}
+
+.executive {
+    font-size: 50px;
+    background: linear-gradient(#eee, #3296bd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.persons {
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.persons .box {
+    margin-top: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.box img {
+    aspect-ratio: 1.1;
+    width: 200px;
+}
+
+.box img:hover {
+    transform: scale(1);
+}
+
+.box h3 {
+    text-transform: uppercase;
+    color: #3296bd;
+
+}
+
+.box p {
+    font-size: 12px;
+}
+
+/* Medicine.css  */
+
+main {
+    margin: 90px;
+    padding: 70px;
+    width: auto;
+    justify-content: center;
+}
+
+.blank {
+    padding: 70px 0px;
+    width: auto;
+    color: #3296bd;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.blank i {
+    padding: 20px;
+    font-size: 50px;
+    color: #3296bd;
+    text-align: center;
+}
+
+/* Add.css  */
+
+/* this section contains the forms. */
+.tt {
+    font-size: 50px;
+    background: linear-gradient(#eee, #3296bd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.head {
+    font-size: 30px;
+    text-align: center;
+    color: #3296bd;
+}
+
+.head>hr {
+    margin: 40px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+form {
+    margin: 50px auto;
+}
+
+.general {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    padding: 20px 30px;
+    margin: auto;
+    max-width: 600px;
+    background-color: #9d9d9d19;
+    text-align: left;
+    color: #7a8a90;
+    box-shadow: 0 0 25px #8d8d8d;
+}
+
+.general .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 5px auto;
+}
+
+.general .input {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    width: 100%;
+}
+
+.general label {
+    padding-left: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+.general .dec,
+.disc textarea {
+    background-color: #7a8a903a;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: all .3s ease;
+}
+
+.general .row .input input:focus {
+    border: 2px solid #3296bd;
+}
+
+button {
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: #4c9cbb;
+    color: #eee;
+    text-align: center;
+    box-shadow: 0 5px 10px #7a8a90;
+
+}
+
+/* This is for footer. */
+.footer {
+    margin: 0px;
+    padding: 20px 50px;
+    background-color: #3296bd;
+    height: 80px;
+    text-align: center;
+    padding-top: 35px;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.footer p {
+    transition: all .3s ease;
+}
+
+.footer p:hover {
+    display: inline;
+    border-left: 3px solid white;
+    padding-left: 9px;
+}
+
+.footer p>b {
+    color: #0b303e63;
+}
+ 
+/* 300 */
+
+@media (max-width:300px) {
+    main {
+        padding: 0;
+        align-items: center;
+    }
+
+    .blank {
+        padding: 20px;
+    }
+
+    .blank i {
+        padding: 0;
+    }
+
+    .footer{
+        height: 150px;
+    }
+
+}
+
+/* 450 */
+
+
+/* 550 */
+
+@media (max-width: 550px) {
+
+    .nav{
+        color: grey;
+    }
+    nav ul li a {
+        color: #6e666665;
+        text-shadow: 0 0 10px grey;
+    }
+    .form {
+        flex-direction: column;
+    }
+
+    .general {
+        padding: 20px;
+    }
+    .footer{
+        height: 100px;
+    }
+    .description{
+        flex-direction: column-reverse;
+    }
+    .description .content{
+        width: 95%;
+    }
+    .description img{
+        margin: 0;
+        filter: drop-shadow(0 10px 10px #00000079);
+    }
+    .persons {
+        flex-direction: column;
+    }
+
+}
+
+/* 600 */
+
+@media (max-width:600px) {
+    main {
+        padding: 130px 0px;
+        align-items: center;
+    }
+
+    .blank {
+        padding: 20px;
+    }
+
+    .blank i {
+        padding: 0;
+    }
+    .executive .box{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/* 650 */
+
+@media (max-width: 650px) {
+    .tt {
+        font-size: 30px;
+        margin-top: 80px;
+    }
+    .persons .box{
+        padding: 40px;
+
+    }
+    .head>hr {
+        margin: 5px 15%;
+    }
+
+    .general {
+        margin: 100px 20px;
+    }
+
+    .general .row {
+        flex-direction: column;
+
+    }
+
+    .general .radio {
+        margin: 0;
+    }
+
+    .general .radio .input {
+        max-width: 100%;
+    }
+
+    .general .input {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .general .check {
+        flex-direction: row;
+
+    }
+
+    .general .btn {
+        flex-direction: row;
+    }
+
+}
+
+/* 750 */
+
+@media (max-width: 750px) {
+    header {
+        padding: 20px;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    nav h1 {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .content .text{
+        margin: 10px 0;
+        font-size: 15px;
+        
+    }
+    .persons {
+        flex-wrap: wrap;
+    }
+}
+
+/* 950 */
+
+@media (max-width: 950px) {
+    header {
+        padding: 20px 50px;
+    }
+    .persons .box{
+        width: 250px;
+    }
+    .persons .box img{
+        width: 150px;
+    }
+    .box h3{
+        font-size: 17px;
+    }
+}
